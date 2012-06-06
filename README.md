@@ -33,10 +33,10 @@ _But while they're useful for developers, they're also good for the organizer, i
 
 
 ##Pull requests
-* turn issue into pull request
-* link to Brock's video
+* [Pull request demo](https://vimeo.com/41045197)
+* [Turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY), using [hub](https://github.com/defunkt/hub)
 
 
 ##Huboard
 
-##Responsabilities
+##Responsibilities
