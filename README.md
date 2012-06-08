@@ -1,13 +1,16 @@
-#Managing Our Projects with GitHub
+#Managing Projects with GitHub
+We've tried a lot of project management systems over the years and in some way they have always seemed lacking or confusing or just a pain in the rear end. If they had good tools for Project Managers, they were confusing to developers. If they were useful to developers, designers complained about the eye-sores. No one system ever seemed to satisfy the team.
 
-Intro paragraph
+We recently started using GitHub for project management after the developers started raving about how much they loved it for their code tools, and to our surprise, there are a lot of very competent organizational tools that come with any given project, and our designers even started using it for some of their own projects, which I think says something about GitHub's aesthetics. Will a little bit of something for each role, GitHub is starting to come out on top as the tool of choice for hosting code, managing projects, and greatly facilitating project communication to boot!
 
-##The README
-GitHub is pretty developer-centric, and as such, the first thing a developer sees when they to they view the repository is the README. The README can be in various formats, but a favorite of mine is [markdown](http://daringfireball.net/projects/markdown/). Simply giving the README an extension of .md tells GitHub to render your README.md using markdown. Being that the developers of your project see the README first, this is where you are going to want to give them the best information. Be concise and if you need to write more than a few sentences, chances are you should probably be linking off to more in-depth documentation in your wiki. Here's a quick guideline of some of the things that you might want to put in your README.
+Some of the things I'd like to show you are pretty general practices we've been using, and are not entirely dependent upon GitHub, but rather just some good general practices. Mostly I'll be talking about how we are doing these things within GitHub and how we're using GitHub's tools for accomplishing our project goals. So whether you like GitHub as a tool for your projects or not, I hope you will get at least something out of this.
 
-1. A quick overview of the project.
+##Project Introductions
+GitHub is pretty developer-centric, and as such, the first thing a developer sees when they to they open the project, is a view of the code repository. GitHub then automatically renders the README file found in the root of the code base. It's a very typical thing for software projects, especially open source software project to have this file in place. The README can be in various formats, but a favorite of mine is [markdown](http://daringfireball.net/projects/markdown/). Simply giving the README an extension of .md tells GitHub to render your README.md using the markdown syntax. But even better, is that GitHub has it's own [flavor of markdown](GitHub Flavored Markdown). Being that the developers of your project see the README first, this is a great place to give them the best information. Be concise and if you need to write more than a few sentences, chances are you should probably be linking off to more in-depth documentation in your wiki. Here's a quick guideline of some of the things that you might want to put in your README.
 
-    Give a few sentences of the project's goals and maybe a small bit of background. Any links that you frequently access are also good to throw up at the top as well, for easy clicking.
+1. A quick project overview.
+
+    Give a few sentences of the project's goals and maybe a small bit of background. Any links that you frequently access are also good to throw up at the top as well, for easy access. And everyone loves easy access.
 
 1. Information about the directory structure.
 
@@ -23,7 +26,7 @@ GitHub is pretty developer-centric, and as such, the first thing a developer see
 
 1. Environments.
 
-    Outline information for your dev, staging and live environments (if you have them) and also outline the process for getting things to the various places. How do I make sure my code is on staging? What is the best way to grab a database dump? We like to setup drush aliases for each environment ahead of time as a means of outlining this information and giving developers a good starting point. Then document some example commands for doing some typical operations.
+    Outline information for your dev, staging and live environments (if you have them) and also outline the process for getting things to the various places. How do I make sure my code is on staging? What is the best way to grab a database dump? We like to setup drush aliases for each environment ahead of time as a means of outlining this information and giving developers a good starting point. Then document some example commands for doing some typical operations. [Here's an example](boiler-plate).
 
 1. Links to where to find more information.
 
@@ -47,9 +50,9 @@ With this reference you will notice that it also gives you the status of the ref
 
 ## Issue Tags
 
-Tags are a simple and effective way to add meta data to your issues. A lot of systems tend to create fields and categories with various values in a effort to allow you to have finite control of the meta data on an issue, but I've found the simple tagging system that GitHub employs to be very efficient and extremely flexible.
+Tags are a simple and effective way to add meta data to your issues. A lot of systems tend to create fields and categories with various values in a effort to allow you to have finite control of the meta data for an issue, but I've found the simple tagging system that GitHub employs to be very efficient and extremely flexible.
 
-Github comes with a few by default: bug, duplicate, enhancement, invalid, question, and won't fix. These give you a good idea of how to start using them. For example, "bug" is a type of issue, while "won't fix" is more of a status. Tags can be anything, and if chosen wisely, can give any developer an immediate clue as to what sort of ticket it is, what section it might apply to, or what status it is in at a quick glance.
+GitHub comes with a few by default: bug, duplicate, enhancement, invalid, question, and won't fix. These give you a good idea of how to start using them. For example, "bug" is a type of issue, while "won't fix" is more of a status. Tags can be anything, and if chosen wisely, can give any developer an immediate clue as to what sort of ticket it is, what section it might apply to, or what status it is in at a quick glance.
 
 But while they're useful for developers, they're also good for the organizer the project in that they serve as a great filtering mechanism as well. For instance, just by selecting various tags, I can see all of the issues that are "migration" issues for "taxonomy", or "content types".
 ![content-migration](https://img.skitch.com/20120607-kfqtrgq148ywk7xxp24fcy74wp.jpg)
