@@ -72,9 +72,6 @@ Pull requests in general are a great means of peer review and have helped to kee
 One of the gripes I had with pull requests, was that when you create one through GitHub's web interface, it basically creates a new issue. And though you can certainly reference a particular issue in your pull request, it's still a separate issue. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub), we've found there is a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)! Very handy for keeping your discussions and code all in one place and not having to deal with multiple issues about the same thing.
 
 ### Milestones
-* backlog
-* 1 week sprints
-* shorter review/planning meetings
 
 GitHub has a mechanism for milestones that is actually quite typical of many project systems these days. When you create a new milestone, it simply has a title, description, and a date choosing mechanism.
 ![milestone](https://img.skitch.com/20120609-4nfhurufifhbxpic32j1ynt1b.jpg)
