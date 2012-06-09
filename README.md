@@ -66,7 +66,7 @@ Pull requests are an amazing tool for code collaboration. If you're new to the c
 Pull requests in general are a great means of peer review and have helped to keep the quality of our code up to everyones standards. There's a bit of overhead in that it may take a little longer for some new piece of code to be merged in, but that also means we find bugs sooner, and typically before it's actually introduced into the system.
 
 One of the gripes I had with pull requests, was that when you created one through GitHub's web interface, it basically creates a new issue. And though you can certainly reference a particular issue in your pull request, it's still a separate ticket. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub), we've found there is a way to turn issues into pull requests! Very handy for keeping your discussions and code all in one place and not having to deal with multiple issues about the same thing.
-<!--<iframe width="560" height="315" src="http://www.youtube.com/embed/suS3lDn20HY" frameborder="0" allowfullscreen></iframe>-->
+<iframe width="560" height="315" src="http://www.youtube.com/embed/suS3lDn20HY" frameborder="0" allowfullscreen></iframe>
 
 ### Milestones
 * backlog
