@@ -85,6 +85,22 @@ You can have a nice overview during the week that gives you the percentage of co
 We tend to only plan one sprint ahead, but there is a milestone created for each week un until then end. So by seeing that there are 5 more sprints without issues, you can easily tell that there are 5 more weeks left until the end of the project.
 ![open](https://img.skitch.com/20120609-fbaj8534tjhmt2t7jc661pquky.jpg)
 
-Most agile scrum projects tend to go with two week sprints, but I've recently found that one week sprints are even better. With such a limited scope, it's much easier to keep track of things in your head, like what needs done, when it needs done, and to keep the general goal of the week in mind at all times. It also has the benefit of making meetings shorter. Typical sprint reviews and sprint planning meetings are usually around 1 hour each, but with a more limited scope we've been able to put our sprint planning and review meetings to about half an hour total on Fridays.
+We grab these tickets from the Backlog, which is essential just any ticket that is **not** in a Sprint.
+![backlog](https://img.skitch.com/20120609-tx4b1a2iebb1a7i1f5higsdrf.jpg)
+
+### Sprint Methodology
+Most agile scrum projects tend to go with two week sprints, but I've recently found that one week sprints are even better. With such a limited scope, it's much easier to keep track of things in your head, like what needs done, when it needs done, and to keep the general goal of the week in mind at all times. It also has the added benefit of making meetings shorter, and who doesn't want shorter meetings?!. Typical two week sprint reviews and sprint planning meetings are usually around 1 hour each, but with a more limited scope we've been able to put our sprint planning and review meetings to about half an hour total on Fridays.
 
 ##Huboard
+
+One of the areas I have fund a bit lacking with GitHub's issue tracking system for project management, has been that there is no way to prioritize your issues. You could probably come up with tags for High, Medium and Low-priority, but I tend to like to have an ordered list with the highest priority things on top.
+
+Enter [Huboard](https://github.com/rauhryan/huboard), which gives you a nice Kanban-style interface right on top of the GitHub api. You're looking at your GitHub tickets, but with a different interface. The instructions for setting this up are quite sufficient, so I'll not re-iterate those, but I've found that it's quite easy and quick to setup on [Heroku](http://www.heroku.com/) with very little maintenance overhead. With Huboard, we then have a means of seeing what the priority tasks are for the week and it gives developers an easy way to see what they should work on next.
+![huboard](https://img.skitch.com/20120609-my9ug4h3us75y98g71tdbssfp9.jpg)
+
+---
+So while GitHub does have many of the things we need to make a project successful, there are a couple places it may be lacking slightly. However, the team over at GitHub is continually making improvements to their product and they [blog](https://github.com/blog/) about it often.
+
+I also think that there is probably a better means of exposing some of the typical project information for stakeholders and clients in a way they can understand. GitHub is great for the technical-minded person, but less tech savvy people may not find it as attractive. I'm still working on ways to make reporting on progress to project stakeholders in a more visual way and when I find one I like, I plan to update you all.
+
+If you have any suggestions on things we might also do to improve our process, or would like to share with us some of the exciting things you're doing with your processes, please hit us up in the comments section! We'd love to hear from you! Remember, Lullabot loves you!
