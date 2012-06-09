@@ -1,4 +1,6 @@
 #Managing Projects with GitHub
+![drupalcat](http://octodex.github.com/images/drupalcat.jpg)
+
 We've tried a lot of project management systems over the years and in some way they have always seemed lacking or confusing or just a pain in the rear end. If they had good tools for project managers, they were confusing to developers. If they were useful to developers, designers complained about the eye-sores. No one system ever seemed to satisfy the team.
 
 We recently started using GitHub for project management after the developers started raving about how much they loved it for their code tools. To our surprise, there are a lot of very competent organizational tools that come with any given project. Our designers even started using it for some of their own projects, which I think says something about GitHub's aesthetics. With a little bit of something for each role, GitHub is starting to come out on top as the tool of choice for hosting code, managing projects, and greatly facilitating project communication to boot!
