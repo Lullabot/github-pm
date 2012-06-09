@@ -44,10 +44,13 @@ Issues can be associated with each other by simply throwing a #issue-number (ex:
 
 Let's say you typically create an issue for a content type, and one of the fields on that content type is a taxonomy vocabulary. You probably want to break that vocabulary creation out into it's own issue. So you create the issue for the news content type
 ![news-content-type](https://img.skitch.com/20120607-kday7nnj62xedpty25yxgmbd93.jpg)
+
 and then you create an issue for the taxonomy vocabulary and within your description, link to the news issue.
 ![tags-taxonomy](https://img.skitch.com/20120607-gah6niabiwa1ybae99rmccnii9.jpg)
+
 Just by putting in the #ticket-number (in this case #4) GitHub creates a link to the news issue ticket AND it also places a back-link reference within the news issue to your tags issue!
 ![news-tags](https://img.skitch.com/20120607-fkc64xhq47sq5ph7bj48d3ffnj.jpg)
+
 With this reference you will notice that it also gives you the status of the referenced issue. Very handy for whomever is assigned this news issue, because they can easily see the status of it's 'dependency'. I use that term loosely, because in this instance it's a dependency, but not always. It's a logical conclusion in this instance.
 
 ### Issue Tags
@@ -63,15 +66,25 @@ But while they're useful for developers, they're also good for the organizer of 
 
 Pull requests are an amazing tool for code collaboration. If you're new to the concept, check out this [pull request demo](https://vimeo.com/41045197). It's a quick and easy way for developers to basically create a copy of the code base (by either forking or branching) and suggesting modifications to the existing code, or contributing new code. It allows the other members of the project to then review that code, make their own suggests within in-line commenting, and decide to merge it into the main code base or not. We've found the in-line commenting with pull requests to be immensely useful since they keep everyone in the project in the loop with changes that are happening.
 ![code-comments](https://img.skitch.com/20120609-e6pfy9sts7nbi2p3kw4um1iikx.jpg)
-Pull requests in general are a great means of peer review and have helped to keep the quality of our code up to everyones standards. There's a bit of overhead in that it may take a little longer for some new piece of code to be merged in, but that also means we find bugs sooner, and typically before it's actually introduced into the system.
 
-One of the gripes I had with pull requests, was that when you created one through GitHub's web interface, it basically creates a new issue. And though you can certainly reference a particular issue in your pull request, it's still a separate ticket. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub), we've found there is a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)! Very handy for keeping your discussions and code all in one place and not having to deal with multiple issues about the same thing.
+Pull requests in general are a great means of peer review and have helped to keep the quality of our code up to everyones standards. There's a bit of overhead in that it may take a little longer for some new piece of code to be merged in, so plan accordingly. But that also means we find bugs sooner and typically before they're actually introduced into the system.
+
+One of the gripes I had with pull requests, was that when you create one through GitHub's web interface, it basically creates a new issue. And though you can certainly reference a particular issue in your pull request, it's still a separate issue. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub), we've found there is a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)! Very handy for keeping your discussions and code all in one place and not having to deal with multiple issues about the same thing.
 
 ### Milestones
 * backlog
 * 1 week sprints
 * shorter review/planning meetings
 
-##Huboard
+GitHub has a mechanism for milestones that is actually quite typical of many project systems these days. When you create a new milestone, it simply has a title, description, and a date choosing mechanism.
+![milestone](https://img.skitch.com/20120609-4nfhurufifhbxpic32j1ynt1b.jpg)
 
-##Responsibilities
+You can have a nice overview during the week that gives you the percentage of completion.
+![closed](https://img.skitch.com/20120609-1kcnp51njk55qqb71nfh5dssii.jpg)
+
+We tend to only plan one sprint ahead, but there is a milestone created for each week un until then end. So by seeing that there are 5 more sprints without issues, you can easily tell that there are 5 more weeks left until the end of the project.
+![open](https://img.skitch.com/20120609-fbaj8534tjhmt2t7jc661pquky.jpg)
+
+Most agile scrum projects tend to go with two week sprints, but I've recently found that one week sprints are even better. With such a limited scope, it's much easier to keep track of things in your head, like what needs done, when it needs done, and to keep the general goal of the week in mind at all times. It also has the benefit of making meetings shorter. Typical sprint reviews and sprint planning meetings are usually around 1 hour each, but with a more limited scope we've been able to put our sprint planning and review meetings to about half an hour total on Fridays.
+
+##Huboard
