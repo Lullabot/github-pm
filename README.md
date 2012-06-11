@@ -233,7 +233,7 @@ I also think that there is probably a better means of exposing some of the
 typical project information for stakeholders and clients in a way they can
 understand. GitHub is great for the technically-minded person, but less
 tech-savvy people may not find it as attractive. I'm still working on ways to
-report on progress to project stakeholders in a more visual way easy and when I
+report on progress to project stakeholders in a more visual way and when I
 find one I like, I plan to update you all.
 
 If you have any suggestions on things we might also do to improve our process,
