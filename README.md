@@ -32,7 +32,7 @@ a favorite of mine is [Markdown](http://daringfireball.net/projects/markdown/).
 Simply giving the README an extension of .md tells GitHub to render your
 README.md using the Markdown syntax. But even better, is that GitHub has it's
 own [flavor of markdown](http://github.github.com/github-flavored-markdown/).
-Being that the developers of your project see the README first, this is a great
+Since the developers of your project see the README first, this is a great
 place for information that will get them up and running with the project as
 quickly as possible. Be concise. If you need to write more than a few sentences,
 chances are, you should be linking off to more in-depth documentation in your
@@ -42,7 +42,7 @@ want to include within your README.
 1. A quick project overview.
 
     Give a few sentences of the project's goals and maybe a small bit of
-    background. Any links that you frequently access are also good to throw up
+    background. Any links that you frequently access are also good to include up
     at the top as well, for easy access. Everyone loves easy access.
 
 1. Information about the directory structure.
@@ -50,7 +50,7 @@ want to include within your README.
     Typically we have more than just Drupal in our repository root, so it's
     helpful to have a brief description of what is in there. We typically have a
     [drush folder](https://github.com/Lullabot/drupal-boilerplate/tree/master/drush)
-    for aliases and commands, as well as a patches directory with it's own README.
+    for aliases and commands, as well as a patches directory with its own README.
 
 1. How to get started developing.
 
@@ -102,7 +102,7 @@ milestones for grouping and focusing your issues within time blocks.
 Issues can be associated with each other by simply throwing an #issue-number
 (ex: #3) within the body of another issue. This is useful in many ways. Firstly,
 it keeps the relationship simple. We don't have to worry about what kind of
-relationship it is (parent/sibling/child) just that it's related. However, there
+relationship it is (parent/sibling/child), just that it's related. However, there
 are a couple of tricks that make this a little more useful if you understand how
 it works. Let me give you an example.
 
@@ -143,7 +143,7 @@ status it is in at a quick glance.
 While they're useful for developers, they're also good for the organizer of the
 project in that they serve as a great filtering mechanism as well. For instance,
 just by selecting various tags, I can see all of the issues that are "migration"
-issues for "taxonomy", or "content types".
+issues for "taxonomy", or "content types."
 ![content-migration](https://img.skitch.com/20120607-kfqtrgq148ywk7xxp24fcy74wp.jpg)
 
 ### Attach Code to an Existing Issue
@@ -151,8 +151,8 @@ issues for "taxonomy", or "content types".
 Pull requests are an amazing tool for code collaboration. If you're new to the
 concept, check out this [pull request demo](https://vimeo.com/41045197). It's a
 quick and easy way for developers to basically create a copy of the code base
-(by either forking or branching) and suggesting modifications to the existing
-code, or contributing new code. It allows the other members of the project to
+(by either forking or branching) and suggest modifications to the existing
+code, or contribute new code. It allows the other members of the project to
 then review that code, make their own suggestions with in-line commenting, and
 then make a decision as to whether to merge it into the main code base or not.
 We've found the in-line commenting with pull requests to be immensely useful
@@ -164,10 +164,10 @@ Pull requests in general are a great means of peer review and have helped to
 keep the quality of our code up to everyone's standards. There's a bit of
 overhead in that it may take a little longer for some new piece of code to be
 merged in, so plan accordingly. But this also means we find bugs sooner,
-typically before they're actually introduced into the system.
+typically before they're actually introduced into the master branch of the code.
 
-One of the gripes I had with pull requests, was that when you create one through
-GitHub's web interface, it basically creates a new issue. And though you can
+I had one gripe with pull requests: when you create one through
+GitHub's web interface, it basically creates a new issue. Though you can
 certainly reference a particular issue within your pull request, it's still a
 separate issue. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub),
 we've found there is a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)!
@@ -201,7 +201,7 @@ that one week sprints are even better. With such a limited scope, it's much
 easier to keep track of things in your head, like what needs to be done, when it
 needs to be done, and to keep the general goal of the week in mind at all times.
 It also has the added benefit of making meetings shorter, and who doesn't want
-shorter meetings?!. Two week sprint reviews and sprint planning meetings are
+shorter meetings?! Two week sprint reviews and sprint planning meetings are
 usually around 1 hour each, but with a more limited scope we've been able to
 keep our sprint planning and review meetings to about half an hour total on
 Fridays.
@@ -210,7 +210,7 @@ Fridays.
 
 One area in GitHub's issue tracking system I have found a bit lacking for
 project management, is the lack of a mechanism for prioritizing your issues. You
-could probably come up with tags for High, Medium and Low-priority, but I tend
+could probably come up with tags for High, Medium and Low priorities, but I tend
 to prefer an ordered list with the highest priority things on top.
 
 Enter [Huboard](https://github.com/rauhryan/huboard), which gives you a nice
