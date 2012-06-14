@@ -8,19 +8,13 @@ they were useful for developers, designers complained about the eye-sores. No
 one system ever seemed to satisfy the team.
 
 We recently started using GitHub for project management after the developers
-started raving about how much they loved it for their code tools. To our
-surprise, GitHub has a lot of very competent organizational tools that can
-benefit any given project. Our designers even started using it for some of their
-own projects, which I think says something about GitHub's aesthetics. With a
+started raving about how much they loved it for managing code. To our
+surprise, GitHub has proven a solid option for project management. Our designers have 
+even started using it for some of their projects, which I think says something 
+about GitHub's aesthetics. With a
 little bit of something for each role, GitHub is starting to come out on top as
-the tool of choice for hosting code, managing projects, and greatly facilitating
-project communication to boot!
-
-Some of the things I'd like to show you are not entirely dependent upon GitHub,
-but are good practices in general. However, I'll be mostly talking about how we
-are doing these things within GitHub and how we're using GitHub's tools for
-accomplishing our project goals. So, whether or not you like GitHub as a tool
-for your projects, I hope you will at least get something out of this.
+the tool of choice for hosting code, managing projects, and facilitating
+project communication.
 
 ##Project Introductions
 GitHub is pretty developer-centric. As such, the first thing a developer sees
@@ -30,18 +24,18 @@ very typical practice for software projects, especially open source software
 projects, to have this file in place. The README can be in various formats, but
 a favorite of mine is [Markdown](http://daringfireball.net/projects/markdown/).
 Simply giving the README an extension of .md tells GitHub to render your
-README.md using the Markdown syntax. But even better, is that GitHub has it's
+README.md using the Markdown syntax. Even better, GitHub has it's
 own [flavor of markdown](http://github.github.com/github-flavored-markdown/).
 Since the developers of your project see the README first, this is a great
 place for information that will get them up and running with the project as
 quickly as possible. Be concise. If you need to write more than a few sentences,
 chances are, you should be linking off to more in-depth documentation in your
 project's wiki. Here's a quick guideline of some of the things that you might
-want to include within your README.
+want to include in your README.
 
 1. A quick project overview.
 
-    Give a few sentences of the project's goals and maybe a small bit of
+    Provide a short description of the project's goals and a bit of
     background. Any links that you frequently access are also good to include up
     at the top as well, for easy access. Everyone loves easy access.
 
@@ -55,11 +49,12 @@ want to include within your README.
 1. How to get started developing.
 
     Tell the developers what the best way to jump into the project might be.
-    Things like, "clone this repo, create a feature branch, and send a pull
-    request for review. Whomever reviews the pull request should also do things
+    Things like, "clone this repository, create a feature branch, run the installer,
+    download a copy of the database, etc.. Whomever reviews the 
+    pull request should also do things
     like remove the remote branch from the repository once it is merged."
 
-1. Development process.
+1. Code promotion workflow.
 
     It's a good idea to outline your development process, as it may change from
     project to project. Do you want people to fork your repository and send pull
@@ -74,7 +69,7 @@ want to include within your README.
     How do I make sure my code is on staging? What is the best way to grab a
     database dump? We like to setup drush aliases for each environment ahead of
     time as a means of outlining this information and giving developers a good
-    starting point. Then document some example commands for doing some typical
+    starting point. This document contains some example commands for doing some typical
     operations. [Here's an example](https://github.com/Lullabot/drupal-boilerplate/blob/master/drush/aliases/example.aliases.drushrc.php).
 
 1. Links to where to find more information.
@@ -102,7 +97,7 @@ milestones for grouping and focusing your issues within time blocks.
 Issues can be associated with each other by simply throwing an #issue-number
 (ex: #3) within the body of another issue. This is useful in many ways. Firstly,
 it keeps the relationship simple. We don't have to worry about what kind of
-relationship it is (parent/sibling/child), just that it's related. However, there
+relationship it is (parent/sibling/child), just that it's related. Nevertheless, there
 are a couple of tricks that make this a little more useful if you understand how
 it works. Let me give you an example.
 
@@ -128,9 +123,9 @@ it is a dependency in this instance, but not always.
 
 ### Issue Tags
 
-Tags are a simple and effective way to add meta data to your issues. A lot of
+Tags are a simple and effective way to add metadata to your issues. A lot of
 systems tend to create fields and categories with various values in an effort to
-allow you finite control of the meta data for an issue. I've found the simple
+allow you finite control of the metadata for an issue. I've found the simple
 tagging system that GitHub employs to be very efficient and more flexible.
 
 GitHub comes with a few tags by default: bug, duplicate, enhancement, invalid,
@@ -170,7 +165,7 @@ I had one gripe with pull requests: when you create one through
 GitHub's web interface, it basically creates a new issue. Though you can
 certainly reference a particular issue within your pull request, it's still a
 separate issue. However, through a nice command-line tool called [Hub](https://github.com/defunkt/hub),
-we've found there is a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)!
+we've found there's a way to [turn issues into pull requests](http://www.youtube.com/watch?v=suS3lDn20HY)!
 Very handy for keeping your discussions and code all in one place and not having
 to deal with multiple issues about the same thing.
 
@@ -181,35 +176,22 @@ project systems these days. When you create a new milestone, it simply has a
 title, description, and a date choosing mechanism.
 ![milestone](https://img.skitch.com/20120609-4nfhurufifhbxpic32j1ynt1b.jpg)
 
-You can have a nice overview during the week that gives you the percentage of
-completion.
+You can have a nice overview during the time-boxed iteration that gives you the percentage
+complete.
 ![closed](https://img.skitch.com/20120609-1kcnp51njk55qqb71nfh5dssii.jpg)
 
 We tend to only plan one sprint ahead, but there is a milestone created for each
-week up until the end of the project. By seeing that there are 5 more sprints
-without issues, you can easily tell that there are 5 more weeks left until the
-end of the project.
+iteration up until the end of the project. 
 ![open](https://img.skitch.com/20120609-fbaj8534tjhmt2t7jc661pquky.jpg)
 
 We grab these tickets from the Backlog, which is essentially just any ticket
 that is **not** in a Sprint.
 ![backlog](https://img.skitch.com/20120609-tx4b1a2iebb1a7i1f5higsdrf.jpg)
 
-### Sprint Methodology
-Most agile scrum projects tend to go with two week sprints. I've recently found
-that one week sprints are even better. With such a limited scope, it's much
-easier to keep track of things in your head, like what needs to be done, when it
-needs to be done, and to keep the general goal of the week in mind at all times.
-It also has the added benefit of making meetings shorter, and who doesn't want
-shorter meetings?! Two week sprint reviews and sprint planning meetings are
-usually around 1 hour each, but with a more limited scope we've been able to
-keep our sprint planning and review meetings to about half an hour total on
-Fridays.
 
 ## Huboard
 
-One area in GitHub's issue tracking system I have found a bit lacking for
-project management, is the lack of a mechanism for prioritizing your issues. You
+GitHub's issue tracking system lacks a mechanism for prioritizing your issues. You
 could probably come up with tags for High, Medium and Low priorities, but I tend
 to prefer an ordered list with the highest priority things on top.
 
@@ -223,15 +205,20 @@ Huboard, we now have a means of seeing what the priority tasks are for the week
 and it gives developers an easy way to see what they should work on next.
 ![huboard](https://img.skitch.com/20120609-my9ug4h3us75y98g71tdbssfp9.jpg)
 
+## Logins
+
+Some project management systems require a new login for every instance of the software. For instance,
+if you have two different clients using the same project management software you may
+have to remember two different username and password combinations and your authentication
+will not transfer from one to the other. Github allows users to access all the projects and repositories 
+you have permission to without multiple authentication.
+
 ---
-So while GitHub does have many things we need to make a project successful,
-there are a couple places it may be lacking slightly. However, the team over at
-GitHub is continually making improvements to their product and they [blog](https://github.com/blog/)
+Github is lean and spare, and you may find there are features missing that you're accustomed to. Luckily,
+the team over at GitHub is continually making improvements to their product and they [blog](https://github.com/blog/)
 about it often.
 
-I also think that there is probably a better means of exposing some of the
-typical project information for stakeholders and clients in a way they can
-understand. GitHub is great for the technically-minded person, but less
+In summary, GitHub is great for the technically-minded person, but less
 tech-savvy people may not find it as attractive. I'm still working on ways to
 report on progress to project stakeholders in a more visual way and when I
 find one I like, I plan to update you all.
