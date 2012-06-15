@@ -88,7 +88,7 @@ have ideas on improving it, please fork it and send us a pull request!
 
 GitHub has a pretty simple issue management system for bug tracking, but it is
 flexible enough to be a pretty powerful tool for managing entire projects, large
-and small. It has issues which can reference each-other; tags for attaching meta
+and small. It has issues which can reference each-other; labels for attaching meta
 data to your issues; methods for attaching code to your issues; and even
 milestones for grouping and focusing your issues within time blocks.
 
@@ -121,15 +121,15 @@ the referenced issue. Very handy for whomever is assigned this news issue. They
 can easily see the status of it's 'dependency'. I use that term loosely because
 it is a dependency in this instance, but not always.
 
-### Issue Tags
+### Issue Labels
 
 Tags are a simple and effective way to add metadata to your issues. A lot of
 systems tend to create fields and categories with various values in an effort to
 allow you finite control of the metadata for an issue. I've found the simple
 tagging system that GitHub employs to be very efficient and more flexible.
 
-GitHub comes with a few tags by default: bug, duplicate, enhancement, invalid,
-question, and won't fix. These give you a good idea of how to start using tags.
+GitHub comes with a few labels by default: bug, duplicate, enhancement, invalid,
+question, and won't fix. These give you a good idea of how to start using labels.
 For example, "bug" is a type of issue, while "won't fix" is more of a status.
 Tags can be anything, and if chosen wisely, can give any developer an immediate
 clue as to what sort of ticket it is, what section it might apply to, or what
@@ -137,7 +137,7 @@ status it is in at a quick glance.
 
 While they're useful for developers, they're also good for the organizer of the
 project in that they serve as a great filtering mechanism as well. For instance,
-just by selecting various tags, I can see all of the issues that are "migration"
+just by selecting various labels, I can see all of the issues that are "migration"
 issues for "taxonomy", or "content types."
 ![content-migration](https://img.skitch.com/20120607-kfqtrgq148ywk7xxp24fcy74wp.jpg)
 
@@ -192,7 +192,7 @@ that is **not** in a Sprint.
 ## Huboard
 
 GitHub's issue tracking system lacks a mechanism for prioritizing your issues. You
-could probably come up with tags for High, Medium and Low priorities, but I tend
+could probably come up with labels for High, Medium and Low priorities, but I tend
 to prefer an ordered list with the highest priority things on top.
 
 Enter [Huboard](https://github.com/rauhryan/huboard), which gives you a nice
