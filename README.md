@@ -1,4 +1,4 @@
-#Managing Projects with GitHub --
+#Managing Projects with GitHub
 ![drupalcat](http://octodex.github.com/images/drupalcat.jpg)
 
 We've tried a lot of project management systems over the years. In some way,
