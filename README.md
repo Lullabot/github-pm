@@ -219,9 +219,11 @@ the team over at GitHub is continually making improvements to their product and 
 about it often.
 
 In summary, GitHub is great for the technically-minded person, but less
-tech-savvy people may not find it as attractive. I'm still working on ways to
+tech-savvy people may not find it as attractive. <del>I'm still working on ways to
 report on progress to project stakeholders in a more visual way and when I
-find one I like, I plan to update you all.
+find one I like, I plan to update you all</del>.
+
+**Update**: Checkout the [Development Matrix](https://www.lullabot.com/blog/article/building-development-matrix) for a way to report on progress to project stakeholders.
 
 If you have any suggestions on things we might also do to improve our process,
 or would like to share with us some of the exciting things you're doing with
